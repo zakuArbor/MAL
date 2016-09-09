@@ -1,0 +1,515 @@
+/*
+// Self-explanatory
+*/
+BODY
+{
+	margin           : 0;
+	color            : #FFFFFF;
+	font-size        : 11.00px;
+	font-family      : Verdana, Arial;
+    /*background-color : green;*/
+    background-image: url(https://lh3.googleusercontent.com/9q3VFCmlvmyMakswpMYEaM4viKkSvTTy5yHO8caislPAMF1ArNU1fLI9YorVG-MCg9TLeN26I9gVi7N70V4Mcgnhk7cj-pfxtUrlkBKXtqyAER8jl8gOwz3k6d-7O34A-CPD2gCnz_Zzzh9SmTgXLDoNU2_VuY81XOZxR9oxYoUeMuzawUOXXDXJHnsJ6V5vratTn_pSlxWz2i_CGpSSFVc85ei-2kVJpz4Nw0Pmrs9Oe_aF-9QXtleGUHR_2e3oOs9mcZu-M0fVm3yffcJPOJKEmLcyzfPcAnOd2uajlYUoXbw3rvd7WCaewrXcH-gufHYH978b4XuiKhmROG65azZ-mK4m651MREcAxtk2sz4R9hXVdBDiP_Zgkmw4uKkh-ojfRbcVEba4GqT35s8THQlqj_AOOVyusR_rBDLC4XyKB5e-zB3GoB_q9qfEHiIhkFBNq8AiZmeq4d5AG3_90yRXQDF8CO2gExNRIuksAAJdiw2I8qyPiAhofcctks27CFG6429WojZryNjSBsY3zHPoMgwczFQi5Em3G9A00MW5BSS01J6j9sVb3d9wpao0OdU3j26lI6Oam9JtiUQS57TjYg4QNU1m4fVmX7mq5nByOV-l=w1024-h512-no);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+
+
+
+/* Top bar menu
+Credit for starting base code to Hahaido
+ */
+#mal_control_strip
+/* Customizing properties*/
+{
+position: fixed !important; /* fixed - to fix the position of top bar menu; absolute - scrolling the menu with a page */
+display: block;
+/* Menu position */
+left: 10px !important;
+margin-left: 5px !important;
+top: 20px !important;
+margin-top: 15px !important;
+/* Menu size */
+width: 100px !important;
+height: 50px !important;
+/* Menu background */
+background: rgba(0, 0, 0, 1) !important; /* If skip this property then default background will be displayed; none - to disable any backgrounds; url(link_to_image) - to display you own picture as a background */
+visibility: hidden;
+}
+
+/* Top bar menu all links*/
+#mal_control_strip a
+
+/* All links effects when mouse hovers on*/
+#mal_control_strip a:hover
+
+/* Using custom font settings. Will be applied to all menu links and text */
+#mal_control_strip, #mal_control_strip a, #mal_control_strip td, #mal_control_strip td div {
+font-family: 'font_name' !important; /* Your custom font */
+color: #FFFFFF !important; /* Font color*/
+font-weight: bold; /* Font weight */
+font-size: 16px !important; /* Font size */
+}
+
+/* Username, Logout */
+#mal_cs_listinfo
+/* Username */
+
+
+
+
+
+
+/* Disables History, Forum, Export, Log in, Create an Anime List, Learn more. You can't enable links */
+#mal_cs_otherlinks { display: none; }
+/* Disables History, Forum, Export, Log in, Create an Anime List, Learn more. You can enable some links */
+#mal_cs_otherlinks { visibility: hidden; }
+/* To enable some links from disabled list */
+/*#mal_cs_otherlinks div a[href*="export"] { visibility: visible; } /* Enabling Export link */
+
+/*
+// Determines the positioning of your list
+*/
+
+#list_surround
+{
+margin           : 0 auto;	
+width            : 60%;
+}
+
+/*
+// All links on your list
+*/
+
+a
+{
+color            : #333;
+text-decoration  : none;
+}
+
+a                :visited
+{
+color          : #333;
+text-decoration: none;
+}
+
+a                :hover
+{
+color            : #a12f2f;
+text-decoration  : underline;
+}
+
+/*
+// Alternating row color 1 
+*/
+.td1, .td2 {
+ 
+    background: rgba(230, 230, 230, .13);
+ 
+    //background-color: #E6E6E6;
+ 
+    padding: 2px;
+ 
+    color: #333;
+ 
+ 
+ 
+}
+/*
+// This represents the "Anime Title", "Score", "# Eps" columns 
+*/
+
+.table_header {
+	color           : #a91515;
+	border-style    : none;
+	background    : rgba(129,99,185, 1);
+	padding       : 15px;
+	letter-spacing: 5px;
+	word-spacing  : 6px;
+	padding       : 18px;
+	/*font-size   : 1.75em;*/
+	font-size     : 19px;
+	font-weight   : 900;
+	margin-top    : 0px;
+
+}
+
+.table_header:nth-child(1) {
+    border-top-left-radius: 1.5em;
+    padding-left: 0px;
+}
+ 
+ 
+ 
+.table_header:nth-last-child(1) {
+ 
+    border-top-right-radius: 1.5em;
+ 
+}
+
+.table_header a:hover{
+	opacity: 1;
+}
+
+/*
+// headerLink represents the color of the links inside the table_header 
+*/
+
+.table_headerLink
+{
+color: #a91515;
+font-weight: 1000;
+}
+
+.table_headerLink:Visited
+{
+color            : ;
+}
+
+.table_headerLink:Hover
+{
+color            : ;
+}
+
+/*
+// Controls the select form decoration (the drop down select box)
+*/
+
+.form
+{
+border-width     : 1px 1px 1px 1px;
+border-color     : #FFFFFF;
+border-style     : solid;
+color            : #000000;
+padding          : 2px;
+font-size        : 11.00px;
+font-family      : Verdana, Arial;
+}
+
+
+/* Which 'status' up top is selected? */
+
+.status_selected
+{
+
+color            : #FFFFFF;
+border-width     : 0px 1px 1px 0px;
+border-style     : solid;
+padding          : 2px;
+background-color : #3b3b3b;
+}
+
+.status_not_selected
+{
+
+color            : #FFFFFF;
+border-width     : 0px 1px 1px 0px;
+border-style     : solid;
+padding          : 2px;
+background-color : #1c1c1c;
+}
+
+
+/*All category buttons
+
+Special Thanks to Shishio-kun for base code for the categories
+*/
+
+[class^="status"] {
+  display: block;
+  border-radius: 50%;
+  border-style: hidden;
+  height: 130px;
+  width: 130px;
+  position: fixed;
+  left: 10px; /*Same as border width*/
+  z-index: 500;
+  font-size: 0;
+  margin: 5px;
+}
+/*Watching button*/
+
+[class^="status"]:first-child {
+		top: 5px; /*10px + border width*/
+		background: url(https://lh3.googleusercontent.com/4mRx75dozKw-QDOQYgDz-y1EMcRunTfkCA5VYs_mi1tWRRjz_OKEZraSfL3Ur_pidh7P3ovhK75n1uxHEvvDPSJ1PG9bZ4IiPwYFrzTK9u-CG7GIELhLCI-12QcjM9MoZfyOMj6G0pZXohEVRrLWFfnMXRcrT_p3n8SWFSVVXxpe1f4SWwTrrLfNAMK0CuYsZUNqhFtLck_b3hvbp62jJxeHPep8o-xuTQWXvZ1-yB4fgaYWbElGWLkzr5l3q1PlmRYmTRR6XOpObMovRUzFbC8BqKKx2XLOCG9IogLYDyAZOAjrOra7Aw6CsN4he58HBDkx0bZbNiUzKeLALqbcaV1PJDBlpDtoEOpnOPTeA5nrLiFrR_IwPoHPjeCxxwTIqd4sk03EvBexag-5KvxsU8FUnQYXGJoLKV-oFz1lQupA4oSQgudC8OLZCia_J0apFgNPt5fcPAFmDQLrsaJ52pKKETHwriujp966f0I1Pd-IKRlo9zOMd0A2ku0v9V17YjQpCHmI2QWs3GBYhiCPGm1fnt3UmDHlxW021JwYRKCer4cu6vC0YczWS4ixlL8t9dOJecEq1mZLZeDH9qrj5tBwtRA11VVU353QXJ4i_zSLTHhd=w610-h662-no);
+		background-size: 90% 90%;
+		background-repeat: no-repeat;
+		color: ;
+		z-index: 510;
+ }
+
+ /*Completed button*/
+    [class^="status"]:nth-child(2) {
+      top: 125px; /*130px + border width*/
+      background: url(https://lh3.googleusercontent.com/fr7ZjbcKx_6pQ-_wV5vzV8ADjDu9vocl9oCIapIBWauRBE2FSWMc0_X4nYUXyb0Xn_58YEcpQ8bdDxpMhUjVYnX6EoxZIkm1mN1JhMwPNTQmHyDnYBriiHfi9pTyDzrus9OBdav8cJqvh-ZlLRh65ECWobZLdz0BG-7zd1oC4VsIvDKItqsNh9oEoKbB7YT3jP4ah5FHX0_Sk8QVPm6O4R2HV_86XnZUZjtR3wFO-jDeyu645_eLClbRI0zpnPX4cyyD-6PJ2aXZbVMHy7eMZ-veL8ubOyrEZJZiqh64BMAwhi-QhShS4RwP5530JfWVHT_KBRPJY0IjTa7OqQeUYmfzCc-bCj6ArCEwoTp0CRLwZaCu4zDYmbaR7yP7HCXme-OHKOqolU63OMPy4Wan6HzMHqoJjYXGx-MxCbuWixr0fh22QWf6D-IqwFGwE12e_JnOcDg74W4FmBkM4EbLcB8EOgSOgsv-vxyLxjZCzoj0ZPnNoqQQTxAupDbGZv4KaR1kshujtwOrrjWnc8H0mSRSN-Y5iD3InzfRQrLLKcEcajW72PiNSDL1arTYH3GAFaOnlfajKWGHJTpAQh3gacweT0alXdg5XNsIKXbvMIA5npcU=s662-no);
+     background-size: 90% 90%;
+     background-repeat: no-repeat;
+      background-position: center;
+      z-index: 509;
+    }
+
+    /*On Hold button*/
+    [class^="status"]:nth-child(3) {
+      top: 250px; /*240px + border width*/
+      background: url(https://lh3.googleusercontent.com/C-iNxppQ9DfmI35LMjmKrLOr1nEwc7TU4j4YA4IiGdcOj1_GgRkKomPYEjnVOrE0Wr2grIXmdfJDF5HNsholTbbRP-gGaZOq8MkKsBkjUO4nZAU_AyeGqyZZyLf67nu-U19chb_dTj-_KzdXjhh4i13rNRCxokmxrmy3FhSCHpuh5nIoSJgBiikU3qUm8gozz6yBPeX14JBRbsu6qW57b7v-vD1GW4IYJsht57Es-8cVjcWqXe1ZCYzouSEcGczIyQebT-JxZU92pwDkNPqcKyRcyyGfZjPJijHrGIoFcCNZjRClBnJ4Yp0_dvR2EgTlsUnHL9xiLt3vPbHt5KvpsTfDVET02HYUDaCUw77QKmIkmrKBIOwbKyPSTk6vyxU0rKCBuNDaCb-V3hlfz4CfZheI0OncCx51jBUxe-lEypX6kpB9wIJ7J6scb1kXlQK_N9pdPnX16zhDBGnYpQFaavb1NSzu-Usa4lXXDWBS9T4j3CExE_4OMRHqJ7qRaRE2e5BIOgj1xKfdWrfqzzpOYp5YQ9--cH67OPilt3m5UsQ5qOpVZuNlup2J5l_uPIcEe3NbajnCBxozpvDGLHClhinbhVYSly8-DENTxVuj9bhyH1JC=w140-h160-no);
+      background-size: 90% 90%;   
+      background-repeat: no-repeat;
+      z-index: 508;
+    }
+
+    /*On Hold button*/
+    [class^="status"]:nth-child(4) {
+		top                : 375px; /*350px + border width*/
+		background         : url(https://lh3.googleusercontent.com/MyqCjmkB9VM3yqowAj-zVBTZe6lFICBlt7K_NNOkog0WFg3Qj3WirzNRvnDKUAlvDjwqO-WBgz8TkzybYvk_fkWe-oiQLcUEH_aPPbvVzepQdcY93P65VeNQo_G9h0U3PMdTm8bGxt3u8NZSpV6Vvibz9Hi2KrzzSX4B8qtkr3OVCq_Swm1LXXB1mJSx3a33OlnsWoOWAWvHospyzAuI3dzlRw9UlALURMdtvv8yl0XbkqghX-7fkuKwfwx0y_5yb_wQjNo6FZlJ3l61sRduTH7sWqKCf4wCXZpLBWNTmUeyZNm0In7CU8bXyBOZ24DSYTmgeBBr1pk3thD6WvmxggapRmcSl5nRi8fD8CF9_CoEKYO7YY3Z_sJctLQcAj7JI7kIUkw1WskQhYEHhpK4tHutRLlVW8WVCwNkin1b-krw7gveTEli4CjsfQ5MIiCNfyzpoYEI3rzsSSSNJztUQyzHzVv7rftA09SlzQGFIJPKyUfqIaGlxtBnJ7O5M_zF15H4b-gy3mnzJ7a8Scj9QF2pQwjm-YrbxRjrCDU88AXgvGhlT7VPBCVZY0v1J9BuIWC2iIPgNHOQaZ-Kd9zzdemBIaPqsdt3TV4xDMk1THbkqqhm=s662-no);
+		background-size: 90% 90%;
+		background-repeat: no-repeat;
+		z-index: 507;
+	}
+
+    /*Plan to Watch button*/
+    [class^="status"]:nth-child(5) {
+      top: 490px; /*460px + border width*/
+      background: url(https://lh3.googleusercontent.com/lM8tKqLSuR_7jyDM3a1kllUjDXtyxU75qWMPN59v-t-vAG67aYH61noIrNTBJavgwD2SEh4NzGHp6-x08ljj-3_a-WU0WDQxPpO0tH1mbffgYevSjJaoYe9u6UywmETKKeODJU1Do3DSO3rErcVythbu9SzYdLqaWy_WeDwgUmDxTuHlncf3QnC5bzzCx66UmUrHGVhB-DjijgCB__gZ8hMjtry54ZRO5FNy4EHCfIb-LohjcaUMsRQkRBZ7J__JoxC4ttoRsPpoZOIjWMlVQxCMupwWRiYmWJtAGR3EHdxL3gIcYxCx6anQfUera1QNNbRhcCiTija3bD7gc_CMhop0p5FdrGBoYvKRXIC05bI83lG_tuQceQMBtCXSK_3IXk91y9pfmewB3-6ty0eifELToGmGEA3VCoj_Uit5Q86Fr-d8qSoYsghxMH1CvhssWb3PUSRlQ12cUhGrcWa_IsixhIgAV8a6owfXX55qSjwehCRXBZDC6WBHCn4UHqkHmEwJboDONUiMHA0GgiRK6HheNuxIr10C5Yj7hFpjZfr1hVfmopphOBmey7sj5V0zTp5UBzUEdUTpc8Ud4W_m4VClql2XeY6nRnV-NDdV83xuHE_F=w426-h549-no);
+      background-size: 90% 90%;
+		background-repeat: no-repeat;
+		z-index: 510;
+    }
+
+    /*All Anime button*/
+    [class^="status"]:nth-child(6) {
+    	visibility: hidden;
+      top: 600px; /*570px + border width*/
+      background-position: 0 100%;
+
+
+    }
+
+
+/*Selected link*/
+.status_selected a {
+  color: white;
+  font-size: 15px;
+  text-shadow: 2px 3px 2px black;
+  word-wrap: break-word;
+  z-index: 600;
+}
+
+/*Not selected links*/
+.status_not_selected a, .status_selected a {
+	display: inline-block;
+	position: relative;
+  	padding-left: 80%;
+  	padding-top: 50%;
+  }
+
+/*All links on hover*/
+[class^="status"]:hover a {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-size: 15px;
+}
+
+/*/*Border overlay*//*
+[class^="status"]:after {
+  content: "";
+  position: absolute;
+  width: 140px; /*Increase for less overlap with buttons, decrease for more*/
+  /*height: 140px; /*Increase for less overlap with buttons, decrease for more*/
+  /*border: 12px solid #c28283;
+  box-sizing: border-box;
+  left: 5px; /*Difference between width of overlay and width of buttons, divided by 2*/
+  /*top: 0px; /*Difference between width of overlay and width of buttons, divided by 2*/
+  /*border-radius: 50%;
+  z-index: -1;
+  opacity: 1; /*Turn down opacity to check border position*/
+/*}
+*/
+/*
+Header classes for Currently Watching, Completed, Dropped, etc...
+SPECIAL THANKS TO Shishio-kun
+*/
+
+
+/*
+Anime List only
+
+CURRENTLY WATCHING HEADER
+This is the header above currently watching/reading. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_cw {
+	position: relative;
+	background-image  :url(https://lh3.googleusercontent.com/cct8jmnMShIiATNc7SGO3vj4QInanPKdjhvPeQ-IZTj8nsiML3eV7wWztpgUL3rFoSbg_hcrW7LXWOS2nB3yydC3BJ9PVM1xVMWMRWirEDlBHvJUnx8bvE778V2FbFy37z96y_0oilIfFfQ8snG7N_qHV7K4JevLzADxVb9-D4afD51BQONr61ywqNaIRf8-cmU6ucKXnOVagqZjkx7ET3-nYXZgulNjPVWMQWaJ-0DVujVHjVkfqy4qOwc9vlVLBj5tNr400u993qdeWeN8qPPow1mrPY3Evr-ETvidyphPT7SdmreTDrBmRiFz3cYN8yoQCAK2wI1KBitVZBRrJ5JrxdEqmmLNXjcgptbrbELZdOPV_Tl2P_gP7Gp5Ro0yAW5z9lR0ggURhdafbsmR6a_Rq-kyZXzZx6zL275RNQLAUTNwpR6vKMo169zyfQXH5M2mYiRpFWqOPfxvMl5vLA3GjTshGJbWqjBJ3mzmC5L8Y3l-8gbZkki8gUjA1Yt8WCNcPjct151p3F7ymRQvriANXtKQOYsgf6EKeFdNopOSgmc28Hznni-3s9nRozFys08c6g07lNr80M3xa_AoUdfApWFTpYPQgZRkCwdngFVDR1EA=w600-h200-no);
+	height            : 200px;
+	margin-bottom     : -10px;
+	padding-bottom    : 0px;
+	background-color  : transparent;
+	background-repeat : no-repeat;
+	color             :;
+	font-family       :;
+	font-size         :;
+	margin: ;
+}
+
+
+
+/*
+COMPLETED HEADER
+This is the header above your anime/manga that's completed. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_completed {
+background-image:url(https://lh3.googleusercontent.com/MeJkUvtRdbenwFZr6102E4R0epKHMaFawIGVKt2VSbPonbcZnEM_1ez6mszl-X9D1ckVxPKLBU4K24vqnfqVvJND0rDwxdfmN0-UtPNF3nJMnmnBgf-RLDxRc5qp0X0uGOGikKVEWx4wRs7R_EPcibz8YSYt9ailgI0Ji-WKmgCcFaErOCkUYxfDw0VviclFKtCKn3mXC9UsuZh9CIVpmOuan_IkUbiNyhTzAGStmydyeujviXlegFgSw0eiqXWblxN8QfGOSNgY_d5BYMwigp5oH1MM9Rxr12iiWrPhB2knSDPnMQdyHhUV7VpsKQh1GG17cnUxEQV_-1O3Bp30xubnF4__DPWIYZmySn4nYJ_-JwpNNVGUNi6l_8NxmNDeDbVjQaYpNm-JYvNLE9FyWib_sdsfffnnG2G5e2YTjfO7T6neKtHxIcQliRP__i5l54dzDGBdzWO-4108UpuToK0k6izRPnAPClTsNaDXmhDTSxHifKWKz8vz4GpTcjf8Rb8Jrz2DOLX35k_ZTjhLxZ25rIUv0ebbP5weYVGYhLM0tF2BCMVOWO46VlaVmfmGhZgJI9tsVF0_OGJHdxylr2BJm05gH7V2K8sL0zM8zYy1ndez=w600-h200-no);
+height: 200px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+ON-HOLD HEADER
+This is the header above your animes/mangas on-hold. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_onhold {
+background-image :url(https://lh3.googleusercontent.com/tzsgK2oya1nZACizx3izHzp-PhKqW-VKQ6nhbJM-pjJo34c0nPAElQL8bdHJ6ToP03vXxNcxbj6PjhnUMot8AufkaL6ZEGnkCU0p3d3-prFNFFQGov5ZCQ_QmqE9xj43-TpRlorW4V4NlOLaeonRRjSp3JNNoNZCfrjz_Ywa9gc918tw4LuMFfeSXUx2rlKyVuCHhFSUpFdgwKqpYAj5skXWopdoM7n1mrDy46BChScA-6dQN4S2UJgL_WJu_Zh1LZd87LmqDdq_Rwdwt84p-3y8OFtiChZxpQz1d1c_nsfwOMT2WpBOl_dvIeX-PQzQ0vxOSr9RfjMGZFQr7fSvjRFiwVBcnBOAGq2sw4pZGTI3rLhXvRbrJLZYMUnhIPODci90M5QePBdMhusABDTs3AJpzc_T1ty3fQfqWQvqgX-I8K4Mk_my5_aXlDFyUfLQYZ_EFqUV_1f-q2lvDioDgPxVD686OTUYyojfVSmFhukXaDyF3L2r8F4tQTRnbC7LXC0djF2x0zIXUtzbPsh7nfFNRK_MdANb-3Lz93fvvV3Hjj1-YDTIqUhSXdsDZLWio9RC0OCu5wMW7NbZ7advJkZuz1_H2Hv9Jdb1F9aM_kM_8PCb=w600-h200-no);
+height           : 200px;
+margin-bottom    : 0px;
+margin-bottom    : -10px;
+background-color : transparent;
+background-repeat: no-repeat;
+color            :;
+font-family      :;
+font-size        :;
+}
+
+
+
+/*
+DROPPED HEADER
+This is the header above your dropped animes/mangas. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_dropped {
+background-image:url(https://lh3.googleusercontent.com/zbbzkr17e-6kZY6bLgqZp3ZwJPjproEPjtWgj2LAefy47nokS_1eqVSUGsdGUv5N3ybgwAtrmSBOuZh8pAdH3ip7aGpSEz4NvQTynSK-eXuUMvOOBYTz4Kpu4eVfcFwS5CKvR6oq1zKYTSfjMHJBNDm6G44MULcgOsm-lOMd67I9SUUQQ65KLXIOyNbZnFT6yP_ToPPoPqrh5RJznl3hz3nIkPuzz2Xn2DhcqSQifQe23xKvGBKdj4SzB456tng2QppL3qR9yTXphLElWYOSwR8JuHElrEXeCJ9skCKK90zKXcoAICWWw0y-Ahu2jbzMPvK-p5oa6JNbkFKfIWTeZjCZfB8xrh1TS96_0qogLCeLefFGjW6emRNtivDVeF0G0Ux8eNNuXhGPSPFT-4dGvJ3kgKbXikYjBql3ffqxuZNjWSW3DohpL9lPZpUEYxmTUcaPzgglUtbEfdTNdZtQFDWY96njIJz6zn5REYtnsiuw_030DMUdVQjFyMIX2y537Pec91nb1HWTL9GrezkT0KGlitKLnI2AaB43xU85Ced-1Sdy30kWLcBftnniNalY-B9CAuaCfiCqLwSsZu3lORMdl4UA9FnaIcBft4XZ6bEzCK1R=w600-h200-no);
+height: 200px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+
+/*
+PLAN TO WATCH HEADER
+This is the header above the anime/manga you plan to see or read on your list. Increase the amount after "height:" if your image doesn't fit the header. Lower the margin-bottom below zero if you wish the header move it behind the list.
+
+If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
+*/
+.header_ptw {
+background-image:url(https://lh3.googleusercontent.com/IknAkcpSCR7OjSe88uCjU7DUCYEf-VjRzL3ZtqxVGoMxturKvoeaosmiWV8eJRdencEJ2lp1DPh_shTi3ssOn49yWuzS6c8YO8mjN394Rgva8rlc1LA82myfrVA0lPYuVNM0Jbzq7W7Y-2NHnELW0vfTEIs0V0KnAaLoRxkjT1SSvWNDPhe4eHz9dUXH6rBGSKZXThjsZh3-7gpQt6WTX7LX1J1AivmUEQ205MW2-SPagLvPwCFWQi_fXVKvLmUm-R51urN5G0rdABkDQOIaiT1ufM618wcj9l8tI9Ks4gSlrKvVJ5TRnIHG-EyAYrZ6vIOcV-hG2oZsZQWjKj63wl7I7C9PkxjLjFSn0ljkr_6IW1IQMHI5NE45z1G2UC0QU9M_9d8iMYPl4vJpZ6pGW2arde2AWRKQu6i71KPjRT94QQa9teVR9eOhNnbtGMnMoBvKuD6mtFjW8IX3uzh488CGOtRPvo0e-JFth98d7gxJY4uasaBlHqA2RYyBAurVWjlAbNKhtAHZ-cA-nfEYH1ULBMN04mrRn3tbWhG4uv-zyhyMU_-ZNdwHnIAtz9wAlc2JFze1KPCSbB2zGQBcrrLblbTw-bdRqqiaE--bZJ9SuIp_=w600-h200-no);
+height: 200px;
+margin-bottom: 0px;
+background-color: transparent;
+background-repeat: no-repeat;
+color:;
+font-family:;
+font-size:;
+}
+
+
+/*
+OTHER CODES
+Stuff I had to add after site changes. You need this otherwise the headers won't be visible.
+*/
+tbody
+{background-color: transparent;
+background-image: none;}
+
+
+/*
+REMOVE HEADER TEXT
+These codes remove the original text like "Completed" and "Currently Watching" from
+each category on the list. Some people will want the text gone so they can have their own custom logos. But if you want the text back, you have to remove this whole section. It shouldn't affect the images in any way.
+*/
+.header_title {
+	color: gray !important;
+	color: transparent !important;
+	font-size: 1px !important;
+	font-size: 0px !important;
+	font-size: 0 !important;
+	font-size: 0pt !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+/*.header_title:nth-child(1) {
+	border-style: dotted;
+	border-top-left-radius : 5px;
+	border-top-right-radius: 5px;
+}*/
+
+
+
+.category_totals
+{	
+	border-style    : none;
+	background    : rgba(129,99,185, 1);
+    padding: 12px;
+	border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+
+#grand_totals
+{
+text-align       : center;
+}
+
+/* header_al is the div surrounding "User's Anime List" at the top */
+
+.header_al
+{
+font-weight      : bold;
+font-size        : 16px;
+}
+
+/* header_al_links is the div with your "Profile" and "MyAnimeList home" links */
+.header_al_links
+{
+
+}
+
+/* controls what styles you can give to all the anime titles in your list */
+.animetitle
+{
+font-weight      : bold;
+}
+
+/*
+copyright contains the "Producted by Garrett Gyssler" text
+DO NOT REMOVE OR HIDE THIS DIV
+IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
+*/
+
+#copyright
+{
+padding-top      : 6px;
+text-align       : center;
+margin           : 0 auto;
+width            : 920px;
+color: black;
+}
