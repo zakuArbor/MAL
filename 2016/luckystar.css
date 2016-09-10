@@ -19,6 +19,15 @@ BODY {
 	visibility: hidden;
 }
 
+/*home button*/
+a[href="/"]  {
+	display: block;
+	visibility: visible;
+	position: fixed;
+	right: 10px;
+	content: '';
+}
+
 /* Top bar menu all links*/
 #mal_control_strip a
 

@@ -1,0 +1,740 @@
+/*@import url('http://nabimoon1234.byethost14.com/mal/kim-2015-spring-manga.css');
+@import "http://nabimoon1234.byethost14.com/mal/kim-2015-spring-manga.css";
+*/
+
+
+
+
+BODY {
+
+    background-image: url("http://nabimoon1234.byethost14.com/mal/333580.jpg");
+
+    font-size: 68.8%;
+
+    font-family: Verdana, Arial;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+}
+
+
+
+#list_surround {
+
+    margin: 0 auto; 
+
+    margin-top: 300px !important;
+
+    width: 750px;
+
+    float: left;
+
+    margin: 2em;
+
+    margin-bottom: 5em;
+
+    font-size: 1.25em;
+
+}
+
+
+
+a {
+
+    color: #333;
+
+    text-decoration: none;
+
+}
+
+
+
+a:visited {
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    text-decoration: none;
+
+}
+
+
+
+.td1, .td2 {
+
+    background: rgba(230, 230, 230, .25);
+
+    //background-color: #E6E6E6;
+
+    padding: 2px;
+
+    color: #333;
+
+
+
+}
+
+   
+
+/*
+
+// This represents the "Anime Title", "Score", "# Eps" columns 
+
+*/
+
+span.table_headerLink {
+
+    color: black;
+
+}   
+
+
+
+.table_header { 
+
+    color: black;
+
+    background: rgba(255,165,0, 1);
+
+    padding: 15px;
+
+    letter-spacing: 2px;
+
+    word-spacing: 3px;
+
+}
+
+
+
+.table_header:nth-child(1) {
+
+    border-top-left-radius: 1.5em;
+
+    padding-left: 0px;
+
+}
+
+
+
+.table_header:nth-last-child(1) {
+
+    border-top-right-radius: 1.5em;
+
+}
+
+
+
+.table_headerLink {
+
+    color: #757575;
+
+}
+
+    
+
+.table_headerLink:Visited {
+
+    color: #757575;
+
+}
+
+    
+
+.table_headerLink:Hover {
+
+    color: #757575;
+
+}
+
+
+
+a.table_headerLink {
+
+    color: black;
+
+}
+
+
+
+div > small {
+
+    visibility: hidden;
+
+    width: 0px;
+
+    z-index: -1;
+
+}
+
+div > small a {
+
+    visibility: hidden;
+
+    width: 0px !important;
+
+}
+
+
+
+.td1:nth-child(3), .td2:nth-child(3) {
+
+    z-index:1;
+
+    width: -25px;
+
+    padding-left: 0px;
+
+    padding-right: 0px;
+
+}
+
+
+
+.td1:nth-child(3) *, .td2:nth-child(3) * {
+
+    width: 0px !important;
+
+}
+
+
+
+.td1:nth-child(3) a, .td2:nth-child(3) a {
+
+    float: left;
+
+    margin-right: 6.5em;
+
+}
+
+
+
+.td1:nth-child(4) , .td2:nth-child(4) {
+
+    position: relative;
+
+    z-index: 2;
+
+    padding-right: 75px;
+
+    padding-left: 0px;
+
+    margin-left: 10px;
+
+}
+
+    
+
+/*
+
+.td1:nth-child(4) a:nth-child(1), .td2:nth-child(4) a:nth-child(1) {
+
+    padding-right: 40px;
+
+    padding-left: 0px;
+
+}
+
+.td1:nth-child(4) a:nth-child(2), .td2:nth-child(4) a:nth-child(2) {
+
+    padding-left: 0px;
+
+    padding-right: 120px;
+
+} */
+
+/*
+
+// Controls the select form decoration (the drop down select box)
+
+*/
+
+
+
+.form {
+
+    border-width: 1px 1px 1px 1px;
+
+    border-color: #ABABAB;
+
+    border-style: solid;
+
+    color: #000000;
+
+    padding: 2px;
+
+    font-size: 11.00px;
+
+    font-family: Verdana, Arial;
+
+}
+
+        
+
+
+
+/* Which 'status' up top is selected? */
+
+
+
+.status_selected {
+
+    color: #000000;
+
+    padding: 2px;
+
+}
+
+
+
+.status_not_selected {
+
+    color: #000000;
+
+    padding: 2px;
+
+}
+
+
+
+/*
+
+Header classes for Currently Watching, Completed, Dropped, etc...
+
+*/
+
+
+
+.header_cw {
+
+}
+
+
+
+.header_completed {
+
+
+
+}
+
+
+
+.header_onhold {
+
+
+
+}
+
+
+
+.header_dropped {
+
+
+
+}
+
+
+
+.header_ptw {
+
+
+
+}
+
+
+
+.header_title {
+
+    padding-left: 1em;
+
+    font-size: 2em;
+
+    font-weight: bold;
+
+    color: #ff8d00;
+
+}
+
+
+
+
+
+.category_totals {
+
+    background: rgba(255,165,0, 1);
+
+    padding: 12px;
+
+    border-bottom-left-radius: 1.5em;
+
+    border-bottom-right-radius: 1.5em;
+
+}
+
+
+
+
+
+
+
+#grand_totals {
+
+    text-align: center;
+
+}
+
+
+
+/* header_al is the div surrounding "User's Anime List" at the top */
+
+
+
+.header_al {
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+}
+
+
+
+/* header_al_links is the div with your "Profile" and "MyAnimeList home" links */
+
+.header_al_links {
+
+
+
+}
+
+
+
+/* controls what styles you can give to all the anime titles in your list */
+
+.animetitle {
+
+    font-weight: bold;
+
+}
+
+/*************************************************************************************************/
+
+#mal_control_strip {
+    z-index: 10;
+    background-image: none !important;
+    position: absolute !important;
+    float: left !important;
+    border-bottom-right-radius: 100% !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-color: #ff8f42 !important;
+    width: 300px !important;
+    height: 300px !important;
+    padding: 0px !important;
+}
+
+#mal_control_strip:after {
+    position: absolute;
+    content: '';
+    vertical-align: center !important;
+    height: 120px !important;
+    width: 120px !important;
+    display: block;
+    background-image: url("http://nabimoon1234.byethost14.com/mal/Kim.png") !important;
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    border-radius: 100% ;
+    border: 5px solid white !important;
+    top:15px !important;
+    left: 15px !important;
+    animation: Kim 10s linear 0s infinite;
+    -webkit-animation: Kim 10s  0s linear infinite;
+}
+
+@-webkit-keyframes Kim {
+    0%   {background:#ff8f42;background-size: 120px 120px;}
+    25%  {background:yellow;background-size: 120px 120px;}
+    50%  {background:blue;background-size: 120px 120px; -webkit-transform: rotateX(360deg);}
+    51%  {background:blue;background-size: 120px 120px; -webkit-transform: rotateY(360deg);} 
+    75%  {background:green;background-size: 120px 120px;}
+    100% {background:red;background-size: 120px 120px;}
+}
+
+/* Standard syntax */
+@keyframes Kim {
+    0%   {background: #ff8f42;background-size: 120px; }
+    25%  {background:yellow;background-size: 120px; }
+    50%  {background:blue;background-size: 120px; transform: rotateX(360deg); }
+    51%  {background:blue;background-size: 120px; transform: rotateY(360deg); }
+    75%  {background:green;background-size: 120px; }
+    100% {background:red;background-size: 120px; }
+}
+
+
+/***********************************************************************************/
+#mal_cs_listinfo:after {
+    position: absolute !important;
+    content: '';
+    width: 56px !important;
+    height: 56px !important;
+    background-image: url("http://nabimoon1234.byethost14.com/mal/profile.png") !important;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    border-radius: 100% !important;
+    border: 3px solid white !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    right: 5px !important;
+    top: 5px !important;
+    float: right !important;
+    z-index: 1;
+}
+
+#mal_cs_listinfo {
+    position: relative;
+    content: '';
+    width: 70px !important;
+    height: 70px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    right: 10px !important;
+    top: 5px !important;
+    float: right !important;
+    border: 0px !important;
+}
+
+#mal_cs_listinfo div {
+    position: relative !important;
+    background: rgba(230, 230, 230, .5);
+    border:1px 0px 0px 0px !important;
+    display: flex !important;  
+    box-sizing: border-box;
+    margin: 0px !important;
+    width: 125px !important;
+    text-align: center !important;
+    top: 5px;
+    right: -75px !important;
+    visibility: hidden;
+}
+
+
+/*****************************************************************************************/
+#mal_cs_links:after {
+    content: '';
+    position: absolute !important;
+    padding: 0px !important;
+    background-image: url("http://nabimoon1234.byethost14.com/mal/bookshelf.png") !important;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    border-radius: 100% !important;
+    border: 3px solid white !important;
+    width: 56px !important;
+    height: 56px !important;
+    top: 0px !important;
+    right: 25px !important;
+}   
+
+#mal_cs_links {
+    position: relative;
+    content: '';
+    width: 80px !important;
+    height: 70px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    right: -50px !important;
+    top: 0px !important;
+    float: right !important;
+    border: 0px !important;
+}
+
+
+#mal_cs_links div, #mal_cs_otherlinks div {
+    position: relative !important;
+    background: rgba(230, 230, 230, .5);
+    border:1px 0px 0px 0px !important;
+    display: block !important;  
+    box-sizing: border-box;
+    margin: 0px !important;
+    width: 125px !important;
+    text-align: center !important;
+    top: 5px;
+    right: -70px !important;
+    visibility: hidden;
+}
+
+
+#mal_cs_links {
+    top: 100px !important;
+    right: -50px !important;
+}
+
+#mal_cs_links div {
+    right:-65px !important;
+}
+
+#mal_cs_links a, #mal_cs_otherlinks a { 
+    display: block;
+}
+
+#mal_cs_powered {
+    position: absolute;
+    background-image: url("http://nabimoon1234.byethost14.com/mal/magnifyingglass.png");
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    border-radius: 100% ;
+    border: 3px solid white !important;
+    width: 56px !important;
+    height: 56px !important;
+    top: 73% !important;
+    left: 35px !important;
+}
+
+#search input {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    border: 1px;
+    padding: 5px;
+    border-color: #A52A2A;
+}
+
+#mal_cs_powered div {
+    position: relative !important;
+    background: rgba(230, 230, 230, .5);
+    border:1px 0px 0px 0px !important;
+    display: inline-block !important;  
+    box-sizing: border-box;
+    margin: 0px !important;
+    width: auto !important;
+    padding: 10px !important;
+    height: 50px;
+    text-align: center !important;
+    top: 5px;
+    right: -70px !important;
+    border-radius: 5px 5px 5px !important;
+    visibility: hidden;
+}
+
+/*********************************************************/
+
+#mal_cs_pic {
+    z-index: -999;
+    visibility: hidden;
+    padding: 0px !important;
+    width: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#mal_cs_otherlinks {
+    position: absolute;
+    width: 56px !important;
+    height: 56px !important;
+    padding: 0px !important;
+    background-image: url("http://nabimoon1234.byethost14.com/mal/barchart.png") !important;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    border-radius: 100% !important;
+    border: 3px solid white !important;
+    bottom: 61px !important;
+    left: 125px !important;
+    display: block !important;
+}
+
+#searchListButton {
+    background: url("http://db.tt/CtpupKT4") no-repeat scroll 0 0 transparent !important;
+    border-radius: 3px;
+    height: 0;
+    margin: 0;
+    padding: 40px 0 0 19px !important;
+    position: absolute;
+    right: 10px !important;
+    top: 12px !important;
+    width: 0;
+}
+
+#mal_cs_powered a {
+    visibility: hidden;
+}
+
+/*****************************************************************************************************************************/
+#mal_cs_listinfo:hover > div, #mal_cs_otherlinks:hover > div,  #mal_cs_links:hover > div, #mal_cs_powered:hover > div {
+    visibility: visible;
+}
+
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a { 
+    width: 100%;
+    display: block !important;
+    box-sizing: border-box !important;
+    border-radius: 5px;
+    padding: 5px !important;
+    padding-right: 5px;
+    background-color: blue !important;
+    text-align: center !important;
+}
+
+
+#mal_cs_listinfo div:nth-child(1):after, #mal_cs_links div:nth-child(1):after, #mal_cs_otherlinks div:nth-child(1):after, #mal_cs_powered div:after {
+    content: "";
+    position: absolute !important;
+    top: 15px;
+    left: -10px;
+    border-style: solid;
+    border-width: 10px 10px 10px 0 !important;
+    border-color: transparent rgba(230, 230, 230, .6);
+    display: block !important;
+    width: 0;
+    z-index: 10 !important;
+}
+
+#mal_cs_listinfo div:nth-child(1), #mal_cs_links div:nth-child(1), #mal_cs_otherlinks div:nth-child(1) {
+    padding: 15px 10px 7px 12px;
+    border-top-right-radius: 5px !important; 
+    border-top-left-radius: 5px !important;
+    border-bottom-right-radius: 0px !important; 
+    border-bottom-left-radius: 0px !important;
+    box-sizing: border-box;
+    z-index: 2;    
+}
+
+#mal_cs_listinfo div:nth-child(2), #mal_cs_links div:nth-child(2), #mal_cs_otherlinks div:nth-child(2) {
+    padding: 7px 10px 15px 12px;
+    border-bottom-right-radius: 5px !important; 
+    border-bottom-left-radius: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+copyright contains the "Producted by Garrett Gyssler" text
+DO NOT REMOVE OR HIDE THIS DIV
+IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
+*/
+
+#copyright
+{
+	
+	text-align: center;
+	
+	width: 920px;
+}
