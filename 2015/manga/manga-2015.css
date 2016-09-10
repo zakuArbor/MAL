@@ -661,8 +661,8 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     width: 0;
 }
 
-#mal_cs_powered a {
-    visibility: hidden;
+#mal_cs_powered {
+    visibility: hidden !important;
 }
 
 /*****************************************************************************************************************************/
