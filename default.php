@@ -17,8 +17,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
 <link rel="stylesheet" href="default_mal/list.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="default_mal/style-1.css" />
 
-<link rel="search" type="application/opensearchdescription+xml" href="https://myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
-
 <link rel="shortcut icon" href="https://myanimelist.cdn-dena.com/images/faviconv5.ico" />
 
 </head>
