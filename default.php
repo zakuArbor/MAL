@@ -1,8 +1,12 @@
+<?php
+$file = "";
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
   <style type="text/css">
-    @import "https://dl.dropboxusercontent.com/s/gm5fa0zouykxyho/luckystar.css";
+    @import $file;
   </style>
   
 
@@ -10,15 +14,12 @@
 mistmountain&#039;s Anime List - MyAnimeList.net
 </title>
 
-
-<meta name='csrf_token' content='e42101f837e948d8f8df049b0f2ced36c0ef08e8'>  <link rel="stylesheet" href="https://myanimelist.cdn-dena.com/css/list.css?v=33" type="text/css" />
-
-<link rel="stylesheet" type="text/css" href="https://myanimelist.cdn-dena.com/static/assets/css/pc/style-cf6eb889ef.css" />
+<link rel="stylesheet" href="default_mal/list.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="default_mal/style-1.css" />
 
 <link rel="search" type="application/opensearchdescription+xml" href="https://myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
 
 <link rel="shortcut icon" href="https://myanimelist.cdn-dena.com/images/faviconv5.ico" />
-
 
 </head>
 
