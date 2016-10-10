@@ -5,10 +5,8 @@ $file = "2015/anime/anime-2015.css";
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-  <style type="text/css">
-    @import <?php echo $file; ?>
-  </style>
   
+  <link rel="stylesheet" type="text/css" href="<?php echo $file;?>" />
 
 <title>
 mistmountain&#039;s Anime List - MyAnimeList.net
