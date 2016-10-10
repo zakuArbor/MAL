@@ -6,7 +6,7 @@ $file = "/2015/anime/anime-2015.css";
 <html>
 <head>
   <style type="text/css">
-    @import $file;
+    @import <?php echo $file; ?>
   </style>
   
 
