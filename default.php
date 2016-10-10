@@ -86,7 +86,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
     </td>
     <td width="75" class="status_not_selected"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="https://myanimelist.net/animelist/mistmountain?status=2&amp;tag=" title="397 Entries">
+      <a href="" title="397 Entries">
         Completed
       </a>
     </td>
@@ -118,12 +118,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
 </table>
     
     <br><br>
-
-    
-              
-
-
-
           <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" class="header_cw">
       <tr>
         <td>
@@ -145,7 +139,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
             <strong>Anime Title</strong>
           </a>
         </td>
-
                           <td class="table_header" width="45" align="center">
             <strong>
               <a href="" class="table_headerLink" rel="#infoscore">Score</a>
@@ -190,8 +183,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                                 <td align="center" width="30" class="td1" style="border-left-width: 1px;">
               1
             </td>
-          
-                              <td class="td1" style="border-left-width: 0">
+                           <td class="td1" style="border-left-width: 0">
                       <div style="float: right;">
               <small>
                                                   <a href="" class="List_LightBox">Edit</a>
@@ -244,12 +236,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                     </span>
                   </form>
                                           </td>
-          
-                    
-                    
-                    
-                    
-                    
                             </tr>
       </table>
       <!-- START HIDDEN -->
@@ -273,7 +259,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                   title="View More Information">More</a>
               </small>
             </div>
-            <a href="/anime/33985/Bloodivores" target="_blank" class="animetitle" title="Anime Information">
+            <a href="" target="_blank" class="animetitle" title="Anime Information">
               <span>Bloodivores</span>
             </a>
                                       <small>Airing</small>
@@ -301,8 +287,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                       <span id="output33985">1</span>/12
                     </a>
                   </span>
-                  <a href="" title="Click to increase your watched ep number by one"
-                     onclick="updateEpNumByOne(33985, '12', '1', 1, 33985);">
+                  <a href="" title="Click to increase your watched ep number by one">
                     +
                   </a>
                   <div style="display: none;" id="holdDynamicEpNum33985">
@@ -316,11 +301,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                   </form>
                                           </td>
           
-                    
-                    
-                    
-                    
-                    
                             </tr>
       </table>
       <!-- START HIDDEN -->
@@ -344,7 +324,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
                     title="View More Information">More</a>
               </small>
             </div>
-            <a href="/anime/32866/Brave_Witches" target="_blank" class="animetitle" title="Anime Information">
+            <a href="" target="_blank" class="animetitle" title="Anime Information">
               <span>Brave Witches</span>
             </a>
                                       <small>Airing</small>
@@ -463,68 +443,6 @@ mistmountain&#039;s Anime List - MyAnimeList.net
       <div id="more235" class="hide" style="width:100%px"></div>
       <!-- // END HIDDEN -->
 
-                      
-                  
-      <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-                                <td align="center" width="30" class="td1" style="border-left-width: 1px;">
-              5
-            </td>
-          
-                              <td class="td1" style="border-left-width: 0">
-                      <div style="float: right;">
-              <small>
-                                                  <a href="/ownlist/anime/31706/edit?hideLayout" class="List_LightBox">Edit</a>
-                                -
-                <a href="" id="xmenu31706"
-                   onclick="getExpand(31706, 1);" title="View More Information">More</a>
-              </small>
-            </div>
-            <a href="/anime/31706/Fate_kaleid_liner_Prisma☆Illya_3rei" target="_blank" class="animetitle" title="Anime Information">
-              <span>Fate/kaleid liner Prisma☆Illya 3rei!!</span>
-            </a>
-                                  </td>
-
-                                <td class="td1" align="center" width="45">
-                                            <a href="" title="Click to bring up a text box to edit your current score">
-                <span id="scoreval31706">
-                  8
-                </span>
-                </a>
-                <div id="scorediv31706" style="display: none;">
-                  <input type="text" id="scoretext31706" size="2">
-                  <input type="button" value="Go">
-                </div>
-                          </td>
-          
-                                <td class="td1" width="50" align="center">
-              TV
-            </td>
-          
-                                <td class="td1" align="center" width="70">
-                                                                            <span id="epText31706" onclick="determineEpVisibility('31706');">
-                    <a href="" title="Click to bring up a text box to edit your current episode number">
-                      <span id="output31706">11</span>/12
-                    </a>
-                  </span>
-                  <a href="" title="Click to increase your watched ep number by one"
-                     onclick="updateEpNumByOne(31706, '12', '2', 1, 31706);">
-                    +
-                  </a>
-                  <div style="display: none;" id="holdDynamicEpNum31706">
-                    12
-                  </div>
-                  <form name="changeEpXMLHTTP[31706]" method="get" style="display: inline;">
-                    <span id="epLayer31706" style="display: none;">
-                      <input type="text" name="change_ep_num[31706]" id="epID31706" size="2">
-                      <br>
-                      <input type="submit" value="Go" name="submitEp[31706]">
-                    </span>
-                  </form>
-                                          </td>
-          
-                            </tr>
-      </table>
       <!-- START HIDDEN -->
       <div id="more31706" class="hide" style="width:100%px"></div>
       <!-- // END HIDDEN -->
