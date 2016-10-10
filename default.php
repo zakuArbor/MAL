@@ -1,5 +1,5 @@
 <?php
-$file = "/2015/anime/anime-2015.css";
+$file = "2015/anime/anime-2015.css";
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
