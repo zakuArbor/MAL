@@ -1,6 +1,6 @@
 BODY {
 
-    background-image: url("manga/333580.jpg");
+    background-image: url("/manga/333580.jpg");
 
     font-size: 68.8%;
 
@@ -403,7 +403,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     height: 120px !important;
     width: 120px !important;
     display: block;
-    background-image: url("manga/Kim.png") !important;
+    background-image: url("/MAL/2015/manga/Kim.png") !important;
     background-repeat: no-repeat;
     background-size: 120px 120px;
     border-radius: 100% ;
@@ -486,7 +486,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     content: '';
     position: absolute !important;
     padding: 0px !important;
-    background-image: url("manga/bookshelf.png") !important;
+    background-image: url("/MAL/2015/manga/bookshelf.png") !important;
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% !important;
@@ -541,7 +541,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 
 #mal_cs_powered {
     position: absolute;
-    background-image: url("manga/magnifyingglass.png");
+    background-image: url("/MAL/2015/manga/magnifyingglass.png");
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% ;
@@ -666,18 +666,6 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     border-bottom-right-radius: 5px !important; 
     border-bottom-left-radius: 5px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
