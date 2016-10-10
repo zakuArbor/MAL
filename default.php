@@ -8,8 +8,8 @@
 mistmountain&#039;s Anime List - MyAnimeList.net
 </title>
 
-<link rel="stylesheet" href="/default_mal/list.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/default_mal/style-1.css" />
+<link rel="stylesheet" href="/MAL/default_mal/list.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/MAL/default_mal/style-1.css" />
 
 <link rel="shortcut icon" href="https://myanimelist.cdn-dena.com/images/faviconv5.ico" />
 
