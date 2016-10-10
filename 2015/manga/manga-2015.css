@@ -1,13 +1,6 @@
-/*@import url('http://nabimoon1234.byethost14.com/mal/kim-2015-spring-manga.css');
-@import "http://nabimoon1234.byethost14.com/mal/kim-2015-spring-manga.css";
-*/
-
-
-
-
 BODY {
 
-    background-image: url("http://nabimoon1234.byethost14.com/mal/333580.jpg");
+    background-image: url("manga/333580.jpg");
 
     font-size: 68.8%;
 
@@ -81,21 +74,16 @@ a:hover {
 
 }
 
-   
-
 /*
 
 // This represents the "Anime Title", "Score", "# Eps" columns 
 
 */
-
 span.table_headerLink {
 
     color: black;
 
-}   
-
-
+}
 
 .table_header { 
 
@@ -111,8 +99,6 @@ span.table_headerLink {
 
 }
 
-
-
 .table_header:nth-child(1) {
 
     border-top-left-radius: 1.5em;
@@ -120,8 +106,6 @@ span.table_headerLink {
     padding-left: 0px;
 
 }
-
-
 
 .table_header:nth-last-child(1) {
 
@@ -229,32 +213,6 @@ div > small a {
 
 }
 
-    
-
-/*
-
-.td1:nth-child(4) a:nth-child(1), .td2:nth-child(4) a:nth-child(1) {
-
-    padding-right: 40px;
-
-    padding-left: 0px;
-
-}
-
-.td1:nth-child(4) a:nth-child(2), .td2:nth-child(4) a:nth-child(2) {
-
-    padding-left: 0px;
-
-    padding-right: 120px;
-
-} */
-
-/*
-
-// Controls the select form decoration (the drop down select box)
-
-*/
-
 
 
 .form {
@@ -273,9 +231,7 @@ div > small a {
 
     font-family: Verdana, Arial;
 
-}
-
-        
+}        
 
 
 
@@ -447,7 +403,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     height: 120px !important;
     width: 120px !important;
     display: block;
-    background-image: url("http://nabimoon1234.byethost14.com/mal/Kim.png") !important;
+    background-image: url("manga/Kim.png") !important;
     background-repeat: no-repeat;
     background-size: 120px 120px;
     border-radius: 100% ;
@@ -484,7 +440,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     content: '';
     width: 56px !important;
     height: 56px !important;
-    background-image: url("http://nabimoon1234.byethost14.com/mal/profile.png") !important;
+    background-image: url("manga/profile.png") !important;
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% !important;
@@ -530,7 +486,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     content: '';
     position: absolute !important;
     padding: 0px !important;
-    background-image: url("http://nabimoon1234.byethost14.com/mal/bookshelf.png") !important;
+    background-image: url("manga/bookshelf.png") !important;
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% !important;
@@ -585,7 +541,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 
 #mal_cs_powered {
     position: absolute;
-    background-image: url("http://nabimoon1234.byethost14.com/mal/magnifyingglass.png");
+    background-image: url("manga/magnifyingglass.png");
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% ;
@@ -639,7 +595,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
     width: 56px !important;
     height: 56px !important;
     padding: 0px !important;
-    background-image: url("http://nabimoon1234.byethost14.com/mal/barchart.png") !important;
+    background-image: url("manga/barchart.png") !important;
     background-repeat: no-repeat;
     background-size: 56px 56px;
     border-radius: 100% !important;
