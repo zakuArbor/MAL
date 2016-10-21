@@ -1,10 +1,18 @@
 <?php
 $i = 1;
-//array('name' => , 'score' => , 'progress' => )
+//array('name' => '', 'type' => '', 'score' => , 'progress' => , 'last_ep' =>, 'airing' => '')
 $list = array(
-        array('name' => 'Akatsuki no Yona', 'type' => 'TV', 'score' => 8, 'progress' => 5, 'last_ep' => 24)
-
-        );
+        array('name' => 'Akatsuki no Yona', 'type' => 'TV', 'score' => 8, 
+          'progress' => 5, 'last_ep' => 24, 'airing' => "Airing"),
+        array('name' => 'Fate/Zero Second Season', 'type' => 'TV', 'score' => 9, 
+          'progress' => 7, 'last_ep' => 12, 'airing' => ''),
+        array('name' => 'Fate/Stay Night Unlimited Blade Works', 'type' => 'TV', 'score' => 9, 
+          'progress' => 3, 'last_ep' => 12, 'airing' => 'Airing')
+        array('name' => 'Magic Kaito', 'type' => 'TV', 'score' => 7, 'progress' => 4, 'last_ep' => 24, 'airing' => '')
+        array('name' => 'Sword Art Online', 'type' => 'TV', 'score' => 9, 
+          'progress' => 7, 'last_ep' => 24, 'airing' => 'Airing')
+        array('name' => 'Aldnoah.Zero 2nd Season', 'type' => '', 'score' => 9, 'progress' => 6, 'last_ep' => 12, 'airing' => '')
+      );
 
 foreach ($list as $item) {
 ?>
@@ -25,7 +33,7 @@ foreach ($list as $item) {
 <a href="" target="_blank" class="animetitle" title="Anime Information">
   <span><?php echo $item['name']; ?></span>
 </a>
-                          <small>Airing</small>
+                          <small><?php echo $item['airing']; ?></small>
           </td>
 
                     <td class="td1" align="center" width="45">
