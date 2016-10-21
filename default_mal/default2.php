@@ -2,6 +2,7 @@
 $c = "status_selected";
 $o = "status_not_selected";
 $status = array($o, $o, $o, $o, $o, $o);
+$current_status = $_GET['status'];
 $status[$current_status] = $c;
 ?>
 
@@ -81,37 +82,37 @@ mistmountain&#039;s Anime List - MyAnimeList.net
   <tr>
     <td width="165" class="<?php echo $status[0];?>"
         style="border-width: 1px 1px 1px 1px;" nowrap align="center">
-      <a href="" title="16 Entries">
+      <a href="<?php echo $link . "?status=0"; ?>" title="16 Entries">
         Currently Watching
       </a>
     </td>
     <td width="75" class="<?php echo $status[1];?>"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="" title="397 Entries">
+      <a href="<?php echo $link . "?status=1"; ?>" title="397 Entries">
         Completed
       </a>
     </td>
     <td width="75" class="<?php echo $status[2];?>"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="" title="46 Entries">
+      <a href="<?php echo $link . "?status=2"; ?>" title="46 Entries">
         On Hold
       </a>
     </td>
     <td width="75" class="<?php echo $status[3];?>"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="" title="52 Entries">
+      <a href="<?php echo $link . "?status=3"; ?>" title="52 Entries">
         Dropped
       </a>
     </td>
     <td width="115" class="<?php echo $status[4];?>"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="" title="44 Entries">
+      <a href="<?php echo $link . "?status=4"; ?>" title="44 Entries">
         Plan to Watch
       </a>
     </td>
     <td width="115" class="<?php echo $status[5];?>"
         style="border-width: 1px 1px 1px 0;" align="center">
-      <a href="" title="Show All Entries">
+      <a href="<?php echo $link . "?status=5"; ?>" title="Show All Entries">
         All Anime
       </a>
     </td>
