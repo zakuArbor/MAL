@@ -4,7 +4,7 @@ $o = "status_not_selected";
 $status = array($o, $o, $o, $o, $o, $o);
 $current_status = $_GET['status'];
 $status[$current_status] = $c;
-print $current_status;
+echo $current_status;
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
