@@ -4,6 +4,7 @@ $o = "status_not_selected";
 $status = array($o, $o, $o, $o, $o, $o);
 $current_status = $_GET['status'];
 $status[$current_status] = $c;
+$status_string = array("Currently Watching", "Completed", "On Hold", "Dropped", "Plan to Watch");
 echo $current_status;
 ?>
 
@@ -125,7 +126,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
       <tr>
         <td>
           <div class="header_title">
-            <span>Watching</span>
+            <span><?php echo $status[$current_status]; ?></span>
           </div>
         </td>
       </tr>
