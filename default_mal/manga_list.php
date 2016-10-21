@@ -7,10 +7,10 @@ $list = array(
         array('name' => 'Fate/Zero Second Season', 'type' => 'TV', 'score' => 9, 
           'progress' => 7, 'last_ep' => 12, 'airing' => ''),
         array('name' => 'Fate/Stay Night Unlimited Blade Works', 'type' => 'TV', 'score' => 9, 
-          'progress' => 3, 'last_ep' => 12, 'airing' => 'Airing')
-        array('name' => 'Magic Kaito', 'type' => 'TV', 'score' => 7, 'progress' => 4, 'last_ep' => 24, 'airing' => '')
+          'progress' => 3, 'last_ep' => 12, 'airing' => 'Airing'),
+        array('name' => 'Magic Kaito', 'type' => 'TV', 'score' => 7, 'progress' => 4, 'last_ep' => 24, 'airing' => ''),
         array('name' => 'Sword Art Online', 'type' => 'TV', 'score' => 9, 
-          'progress' => 7, 'last_ep' => 24, 'airing' => 'Airing')
+          'progress' => 7, 'last_ep' => 24, 'airing' => 'Airing'),
         array('name' => 'Aldnoah.Zero 2nd Season', 'type' => '', 'score' => 9, 'progress' => 6, 'last_ep' => 12, 'airing' => '')
       );
 
