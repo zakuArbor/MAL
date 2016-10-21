@@ -126,7 +126,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
       <tr>
         <td>
           <div class="header_title">
-            <span><?php echo $status[$current_status]; ?></span>
+            <span><?php echo $status_string[$current_status]; ?></span>
           </div>
         </td>
       </tr>
