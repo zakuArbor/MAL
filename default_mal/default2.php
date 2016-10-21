@@ -1,6 +1,6 @@
 <?php
 $c = "status_selected";
-$o = "status_not_selected"
+$o = "status_not_selected";
 $status = array($o, $o, $o, $o, $o, $o);
 if $current_status = 1 {
   $status[0] = $c;
