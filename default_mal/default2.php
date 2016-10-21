@@ -5,7 +5,7 @@ $status = array($o, $o, $o, $o, $o, $o);
 $current_status = $_GET['status'];
 $status[$current_status] = $c;
 $status_string = array("Currently Watching", "Completed", "On Hold", "Dropped", "Plan to Watch");
-echo $current_status;
+$status_class = array("CW", "Completed", "onhold", "dropped");
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -122,7 +122,7 @@ mistmountain&#039;s Anime List - MyAnimeList.net
 </table>
     
     <br><br>
-          <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" class="header_cw">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" class="header_<?php echo $status_class[$current_status]; ?>">
       <tr>
         <td>
           <div class="header_title">
