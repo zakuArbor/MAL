@@ -2,24 +2,7 @@
 $c = "status_selected";
 $o = "status_not_selected";
 $status = array($o, $o, $o, $o, $o, $o);
-if $current_status = 1 {
-  $status[0] = $c;
-}
-else if $current_status = 2 {
-  $status[1] = $c;
-}
-else if $current_status = 3 {
-  $status[2] = $c; 
-}
-else if $current_status = 4 {
-  $status[3] = $c;
-}
-else if $current_status = 4 {
-  $status[4] = $c;
-}
-else if $current_status = 4 {
-  $status[5] = $c;
-}
+$status[$current_status] = $c;
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
