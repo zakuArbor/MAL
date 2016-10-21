@@ -1,5 +1,5 @@
 <?php
-$i = 0;
+$i = 1;
 //array('name' => , 'score' => , 'progress' => )
 $list = array(
         array('name' => 'Akatsuki no Yona', 'type' => 'TV', 'score' => 8, 'progress' => 5, 'last_ep' => 24)
@@ -14,6 +14,14 @@ foreach ($list as $item) {
   <?php echo $i; ?>
 </td>
                <td class="td1" style="border-left-width: 0">
+ <div style="float: right;">
+              <small>
+       		<a href="" class="List_LightBox">Edit</a>
+                                -
+                <a href="" id="xmenu33462"
+                   title="View More Information">More</a>
+              </small>
+            </div>
 <a href="" target="_blank" class="animetitle" title="Anime Information">
   <span><?php echo $item['name']; ?></span>
 </a>
@@ -23,7 +31,7 @@ foreach ($list as $item) {
                     <td class="td1" align="center" width="45">
                                 <a href="" title="Click to bring up a text box to edit your current score">
     <span id="scoreval33462">
-      <?php echo $item['score']; ?>
+      <?php echo "\t" . $item['score']; ?>
     </span>
     </a>
     <div id="scorediv33462" style="display: none;">
@@ -47,4 +55,5 @@ foreach ($list as $item) {
                               </td>
                 </tr>
 </table>
-<?php } ?>
+<?php
+$i+=1;} ?>
