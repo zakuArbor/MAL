@@ -5,7 +5,7 @@ $status = array($o, $o, $o, $o, $o, $o);
 $current_status = $_GET['status'];
 $status[$current_status] = $c;
 $status_string = array("Currently Watching", "Completed", "On Hold", "Dropped", "Plan to Watch");
-$status_class = array("CW", "Completed", "onhold", "dropped");
+$status_class = array("cw", "completed", "onhold", "dropped", "ptw");
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
