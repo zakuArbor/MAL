@@ -18,7 +18,7 @@
     
     <div class="panel panel-default">
      <div class="panel-heading">WHAT IS MAL</div>
-     <div class="panel-body"><p>MAL (MyanimeList) is an anime and manga database with a large community of people 
+     <div class="panel-body"><p>MAL (MyAnimeList) is an anime and manga database with a large community of people 
        who use their services. MAL allow users to be able to keep track of their progress with anime they are currently 
        watching and records any anime they have completed or plan to watch. The unique thing that MAL stands out 
        compared to other anime and manga databases is the ability for users to personalize their list. Although users
