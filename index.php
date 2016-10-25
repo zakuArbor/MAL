@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Hayao Miyazaki Tribute</title>
+    <title>MAL</title>
      <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -15,6 +15,7 @@
     <h1 class = 'primary-text text-center page-header header'>MY PERSONAL MAL CSS STYLE</h1>
     <h3 class = 'text-center sub-header'>MyanimeList Styles</h3>
     
+      <h2 id = "mal">WHAT IS MAL</h2>
     
     </div>
     
