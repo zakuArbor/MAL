@@ -14,7 +14,7 @@
       
     <h1 class = 'primary-text text-center page-header header'>MY PERSONAL MAL CSS STYLE</h1>
     
-      <h2 id = "mal">WHAT IS MAL</h2>
+      <h2 id = "mal" class = 'sub-header'>WHAT IS MAL</h2>
     
     </div>
     
