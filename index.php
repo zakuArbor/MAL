@@ -13,7 +13,6 @@
     <div class = "fluid-container">
       
     <h1 class = 'primary-text text-center page-header header'>MY PERSONAL MAL CSS STYLE</h1>
-    <h3 class = 'text-center sub-header'>MyanimeList Styles</h3>
     
       <h2 id = "mal">WHAT IS MAL</h2>
     
