@@ -1,0 +1,36 @@
+.header {
+  word-spacing: 3px;
+  letter-spacing: 10px;
+}
+
+.sub-header {
+  letter-spacing: 8px;
+  margin-top: -10px;
+  text-decoration: underline;
+}
+
+.content-headings {
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.panel-body {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+li {
+  padding: 7.5px;
+}
+#footer {
+  padding: 10px;
+}
+
+#up-down {
+  color: #333;
+}
+#up-down-span {
+  width: 50%;
+}
+
