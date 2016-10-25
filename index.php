@@ -16,8 +16,17 @@
       
     <h1 class = 'primary-text text-center page-header header'>MY PERSONAL MAL CSS STYLE</h1>
     
-      <h3 id = "mal" class = 'sub-header'>WHAT IS MAL</h3>
-    
+    <div class="panel panel-default">
+     <div class="panel-heading">WHAT IS MAL</div>
+     <div class="panel-body"><p>MAL (MyanimeList) is an anime and manga database with a large community of people 
+       who use their services. MAL allow users to be able to keep track of their progress with anime they are currently 
+       watching and records any anime they have completed or plan to watch. The unique thing that MAL stands out 
+       compared to other anime and manga databases is the ability for users to personalize their list. Although users
+       are not able to have complete control in personalization such as changing the html structure or add animation through JQuery,
+       users have complete control over the style of the site through CSS. Users are able to create their own layout but are required
+       to use the preexisintg html structure making it a challenge to personalize your list without having any control with the
+       html structure and the limitations of only able to use css.</p> </div>
+    </div>
     </div>
     
   </body>
