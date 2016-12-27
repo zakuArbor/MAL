@@ -192,7 +192,7 @@ Special Thanks to Shishio-kun for base code for the categories
 /*Watching button*/
 [class^="status"]:first-child {
 	top              : 5px; /*10px + border width*/
-	background       : url(https://lh3.googleusercontent.com/4mRx75dozKw-QDOQYgDz-y1EMcRunTfkCA5VYs_mi1tWRRjz_OKEZraSfL3Ur_pidh7P3ovhK75n1uxHEvvDPSJ1PG9bZ4IiPwYFrzTK9u-CG7GIELhLCI-12QcjM9MoZfyOMj6G0pZXohEVRrLWFfnMXRcrT_p3n8SWFSVVXxpe1f4SWwTrrLfNAMK0CuYsZUNqhFtLck_b3hvbp62jJxeHPep8o-xuTQWXvZ1-yB4fgaYWbElGWLkzr5l3q1PlmRYmTRR6XOpObMovRUzFbC8BqKKx2XLOCG9IogLYDyAZOAjrOra7Aw6CsN4he58HBDkx0bZbNiUzKeLALqbcaV1PJDBlpDtoEOpnOPTeA5nrLiFrR_IwPoHPjeCxxwTIqd4sk03EvBexag-5KvxsU8FUnQYXGJoLKV-oFz1lQupA4oSQgudC8OLZCia_J0apFgNPt5fcPAFmDQLrsaJ52pKKETHwriujp966f0I1Pd-IKRlo9zOMd0A2ku0v9V17YjQpCHmI2QWs3GBYhiCPGm1fnt3UmDHlxW021JwYRKCer4cu6vC0YczWS4ixlL8t9dOJecEq1mZLZeDH9qrj5tBwtRA11VVU353QXJ4i_zSLTHhd=w610-h662-no);
+	background       : url(https://lh3.googleusercontent.com/dQdfPkQG6WYdoN3lm39-46ujenrTC5q7lMszyTJpsbaFhRxZxNxzYf1dq-Apr58F25_jZjMZ6gWWZJ5yJJxH39eXJW5aoLIc1T9OmlIAbWY-mOXOms0QR5ur7vJpEwWTXlvmTZ0IUsXiAkgZztUjfCklyYSjWrgc-tzsbAJ8QR5uPRUpqG0MCzWr3vLxMHjfKgzQvyTJJuXl1DLg283tNoDCUn-W24g6XGPdhAyHbH_W9JPdIKa8MpW79L6MlpwBfxRMM8BE9aHXNqpn5kaR7GsthnHKXsGPHuZkv8WtRJb7HZ3tNxUMUIph-W4TYHLNYxjbxPqmgJpLIx_1oJddG9t6It1hEbBWfpcKv5Hk69dzk-odhmyT_xoU2SvR4qe-gqVws-WgsNF1SCz6F3Z_0e8kI6AtQevqL7_1UhlT-ueT3p5y5KZDZFmJnmS4X09jrP7R5RLTevixYjx9r_iM3mVEl6_yKnQkaAd6m3TbiaGr03qIAS6dtndy2Ppruc95e7-_IgNb36yiYWL9giNKEAnhzQIQXhquRAiW54_wWJMnTrwVi0lLSMqNPA_ISFG7PYbAkcJwMxc9T-xQXSwyaQtji7X8MyXIYP6YmPC0AWmCLBV_n_FUHkkcswy7ntj5GI-ATJG3nmQ-VcI20ZCEfGYBxLalQEiV74uU_xnKfg=w620-h673-no);
 	background-size  : 90% 90%;
 	background-repeat: no-repeat;
 	color            : ;
@@ -202,7 +202,7 @@ Special Thanks to Shishio-kun for base code for the categories
 /*Completed button*/
 [class^="status"]:nth-child(2) {
 	top                : 125px; /*130px + border width*/
-	background         : url(https://lh3.googleusercontent.com/fr7ZjbcKx_6pQ-_wV5vzV8ADjDu9vocl9oCIapIBWauRBE2FSWMc0_X4nYUXyb0Xn_58YEcpQ8bdDxpMhUjVYnX6EoxZIkm1mN1JhMwPNTQmHyDnYBriiHfi9pTyDzrus9OBdav8cJqvh-ZlLRh65ECWobZLdz0BG-7zd1oC4VsIvDKItqsNh9oEoKbB7YT3jP4ah5FHX0_Sk8QVPm6O4R2HV_86XnZUZjtR3wFO-jDeyu645_eLClbRI0zpnPX4cyyD-6PJ2aXZbVMHy7eMZ-veL8ubOyrEZJZiqh64BMAwhi-QhShS4RwP5530JfWVHT_KBRPJY0IjTa7OqQeUYmfzCc-bCj6ArCEwoTp0CRLwZaCu4zDYmbaR7yP7HCXme-OHKOqolU63OMPy4Wan6HzMHqoJjYXGx-MxCbuWixr0fh22QWf6D-IqwFGwE12e_JnOcDg74W4FmBkM4EbLcB8EOgSOgsv-vxyLxjZCzoj0ZPnNoqQQTxAupDbGZv4KaR1kshujtwOrrjWnc8H0mSRSN-Y5iD3InzfRQrLLKcEcajW72PiNSDL1arTYH3GAFaOnlfajKWGHJTpAQh3gacweT0alXdg5XNsIKXbvMIA5npcU=s662-no);
+	background         : url(https://lh3.googleusercontent.com/zGvPuIjc5Py5Avy1WxGM86X-dnSDxLYRNyNwzWNrSMwWeIbi7_NZA9OD2mfl3_bz_boBAP20ypb0bbLTWH_WVOh9N14OhZLc18zMD8krlzDc9tzsElQfGz3nQUUSu4huxfije9JknQYGD5MvTtyHhObEWU502cu74nJ4nnpAwvqTokdinNMqzgR9RTPhINn57CskVg5oiCmk5fJEPmnlA3ywbTfH8DHkz3fWYJUMsHyGT8BzY21ZL4EeBHrP2qoHvBcvcMBUVWj2APCnSqdfy7E-Q40YWdAyD5NH2x7Il1zBRR37itNahI9ARRNttWsGXswosiqwioOvJttpL4ZU1C-RLBDxrB3c9ZXbzjqHKvFSzGOqMZYRl-4SfaFDMkOq7wjPv8fbgDfe6SxN5BwAQZaJY1OLogzj2A1wVBz4oSRkuGxxEBcNAzIo51N5_KED953rR5akQerT09w1wguE40BZ3qUv2R3Ger9QcJfrX82cQ2hZGmnelJrpm1MprpxZEIHMkc5u8jkPVYb6MjI080uYZ6Dsm2OMr0Riidqm2wGnW0tu7-7PN3vc4iaOW1jDYTYm5YZLcxNGrmSjLvG_qAX6tPrSKk8IkAJaTtsnU9eQ2JjfHcSc3sQ_B5lrCjS1yfxhs29EeSKxTyYP92X4jN5KonV1SV3Y0AbxdkaHoA=s673-no);
 	background-size    : 90% 90%;
 	background-repeat  : no-repeat;
 	background-position: center;
@@ -212,7 +212,7 @@ Special Thanks to Shishio-kun for base code for the categories
 /*On Hold button*/
 [class^="status"]:nth-child(3) {
 	top              : 250px; /*240px + border width*/
-	background       : url(https://lh3.googleusercontent.com/C-iNxppQ9DfmI35LMjmKrLOr1nEwc7TU4j4YA4IiGdcOj1_GgRkKomPYEjnVOrE0Wr2grIXmdfJDF5HNsholTbbRP-gGaZOq8MkKsBkjUO4nZAU_AyeGqyZZyLf67nu-U19chb_dTj-_KzdXjhh4i13rNRCxokmxrmy3FhSCHpuh5nIoSJgBiikU3qUm8gozz6yBPeX14JBRbsu6qW57b7v-vD1GW4IYJsht57Es-8cVjcWqXe1ZCYzouSEcGczIyQebT-JxZU92pwDkNPqcKyRcyyGfZjPJijHrGIoFcCNZjRClBnJ4Yp0_dvR2EgTlsUnHL9xiLt3vPbHt5KvpsTfDVET02HYUDaCUw77QKmIkmrKBIOwbKyPSTk6vyxU0rKCBuNDaCb-V3hlfz4CfZheI0OncCx51jBUxe-lEypX6kpB9wIJ7J6scb1kXlQK_N9pdPnX16zhDBGnYpQFaavb1NSzu-Usa4lXXDWBS9T4j3CExE_4OMRHqJ7qRaRE2e5BIOgj1xKfdWrfqzzpOYp5YQ9--cH67OPilt3m5UsQ5qOpVZuNlup2J5l_uPIcEe3NbajnCBxozpvDGLHClhinbhVYSly8-DENTxVuj9bhyH1JC=w140-h160-no);
+	background       : url(https://lh3.googleusercontent.com/jZ0RAyBD4IYeYbNp46cgyWtdnlL5TbE-U_ylxVFNLQbl-Yx54amLv2cEFCX4DUzPFPPObyrXL0iQDX6Skgxnps8OgXHq6wDK5sPXtz6PmhcjV2N_eFwKPQ55Q9uOPoDAbTPJMq_2kIkRmqraMF481WdEZlM6S51KjF_fvVrInMq9EUWIJBTtUJPn6lW7wyw9FJHiqbwmJje3zPIrXe-1fNvjIYLqCTcP6ycwk493sDHU4nKrR_ELezOGyxFHvEFu8HlSc8m8f9CPEkVgxdlvMzZ5Diodi3bX6TBBDuo9i3QeOgo0RBvOuXsM5cK_yetxF27md8ZTMOJV3bIynIV0GQ-bVQhg7DjT8vzI-qJpD7xz8leeXKRYr78K5asf1ATRCfdJCE_Hxk_AD4OuYdAD550ToGQZDcobSputtTyGhuAx1K-EgjgYoBHIWNe9MrZSyDkDPAtG3u1bUUGbQIURx_1bfBxYkMk6nAiDrkt4wuj6VA14hMqBD00D4zCJXZCQcM0zhCLKNPHpOjpOOMdueGhiE8dYGHo5wvd5yeSlWemPI2k4jUydyNy0mHOLZeNbFE_PBU1qSBdciPHVYiJ4PVy5ls8br4Jmz7NqKlwDatEQLzBAnbGvCiFL3Z-dANLlLf7e9dwMnk4jT0D4ErRWWg5ELtjf-mggavKwE086qg=w140-h160-no);
 	background-size  : 90% 90%;   
 	background-repeat: no-repeat;
 	z-index          : 508;
@@ -221,7 +221,7 @@ Special Thanks to Shishio-kun for base code for the categories
 /*Dropped button*/
 [class^="status"]:nth-child(4) {
 	top              : 375px; /*350px + border width*/
-	background       : url(https://lh3.googleusercontent.com/MyqCjmkB9VM3yqowAj-zVBTZe6lFICBlt7K_NNOkog0WFg3Qj3WirzNRvnDKUAlvDjwqO-WBgz8TkzybYvk_fkWe-oiQLcUEH_aPPbvVzepQdcY93P65VeNQo_G9h0U3PMdTm8bGxt3u8NZSpV6Vvibz9Hi2KrzzSX4B8qtkr3OVCq_Swm1LXXB1mJSx3a33OlnsWoOWAWvHospyzAuI3dzlRw9UlALURMdtvv8yl0XbkqghX-7fkuKwfwx0y_5yb_wQjNo6FZlJ3l61sRduTH7sWqKCf4wCXZpLBWNTmUeyZNm0In7CU8bXyBOZ24DSYTmgeBBr1pk3thD6WvmxggapRmcSl5nRi8fD8CF9_CoEKYO7YY3Z_sJctLQcAj7JI7kIUkw1WskQhYEHhpK4tHutRLlVW8WVCwNkin1b-krw7gveTEli4CjsfQ5MIiCNfyzpoYEI3rzsSSSNJztUQyzHzVv7rftA09SlzQGFIJPKyUfqIaGlxtBnJ7O5M_zF15H4b-gy3mnzJ7a8Scj9QF2pQwjm-YrbxRjrCDU88AXgvGhlT7VPBCVZY0v1J9BuIWC2iIPgNHOQaZ-Kd9zzdemBIaPqsdt3TV4xDMk1THbkqqhm=s662-no);
+	background       : url(https://lh3.googleusercontent.com/kYlQPEhfhb5qHiSuJ0bnmGu2jlW13lrs_41dPOd4pjEe9iEQa7O_RA9cdK6yKhN6fxwmHsqP5FoIVHiSO88ePbxThrSUa1YWupp8Q3M0UG0eb9iPLahPqKsolyIzIa7dkXcw4A=s673-no);
 	background-size  : 90% 90%;
 	background-repeat: no-repeat;
 	z-index          : 507;
@@ -230,7 +230,7 @@ Special Thanks to Shishio-kun for base code for the categories
 /*Plan to Watch button*/
 [class^="status"]:nth-child(5) {
 	top              : 490px; /*460px + border width*/
-	background       : url(https://lh3.googleusercontent.com/lM8tKqLSuR_7jyDM3a1kllUjDXtyxU75qWMPN59v-t-vAG67aYH61noIrNTBJavgwD2SEh4NzGHp6-x08ljj-3_a-WU0WDQxPpO0tH1mbffgYevSjJaoYe9u6UywmETKKeODJU1Do3DSO3rErcVythbu9SzYdLqaWy_WeDwgUmDxTuHlncf3QnC5bzzCx66UmUrHGVhB-DjijgCB__gZ8hMjtry54ZRO5FNy4EHCfIb-LohjcaUMsRQkRBZ7J__JoxC4ttoRsPpoZOIjWMlVQxCMupwWRiYmWJtAGR3EHdxL3gIcYxCx6anQfUera1QNNbRhcCiTija3bD7gc_CMhop0p5FdrGBoYvKRXIC05bI83lG_tuQceQMBtCXSK_3IXk91y9pfmewB3-6ty0eifELToGmGEA3VCoj_Uit5Q86Fr-d8qSoYsghxMH1CvhssWb3PUSRlQ12cUhGrcWa_IsixhIgAV8a6owfXX55qSjwehCRXBZDC6WBHCn4UHqkHmEwJboDONUiMHA0GgiRK6HheNuxIr10C5Yj7hFpjZfr1hVfmopphOBmey7sj5V0zTp5UBzUEdUTpc8Ud4W_m4VClql2XeY6nRnV-NDdV83xuHE_F=w426-h549-no);
+	background       : url(https://lh3.googleusercontent.com/z5OG4fU2DDREuY5zD63c9YP04J9mJSh0v7GbumFO9VI4GZsW8-02U6AaSrxw9ZgHgMIeoPaMJxBq0S2Y5mjzGcbAjG-eipiZTGc9iC4qinDMqiyPfCSKh6MPdM2acYIr07csr0CXmq6AC8Q7LR-Ms7_lVjXB-HVqU0yCxaJCecHu32M7cJhFEilT73nilUd16xcmXzPbLfHGUMvcGs8WONuSvTk5BKUfLYGQRFgDyUyreRcno-YNCZQEj0MaACTyWd9TbAPHBFM5xGwqJJ_3NprI40oWHHZIqMTcuqfUThksAm-y8t_8IXaGL0wBia3tcnudM7hIAZYPEff6v1cl2J-VBQLbHc3b3LFdRlQOMFa8jV98q9RFaLnaAe4KSuJF-mwkPMpEVauqEPhQayXNlKeWds65TuzlkvN_Vmpr6Vgv_oQi7nkT1xQvT-ERJ9UNlZNSMRATWskHT1onhqxvNPiahfujIvG6C0TUmjZHS0_24K82jNwTlUO7TWvG-4uEdivZeuhnoIulBTR4mioSfI2BWahCO_2brJM_iZXQx0PL6uHb7tNBpfPfmkpbZ7BxBfbdmgOh8cAPWmUr6P4Gg4jOEWiZSAzQinMpcYWmF9lS4sXlxM68=w426-h549-no);
 	background-size  : 90% 90%;
 	background-repeat: no-repeat;
 	z-index          : 510;
